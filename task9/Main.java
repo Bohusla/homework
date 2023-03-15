@@ -17,6 +17,6 @@ public class Main {
         System.out.println("masiv");
         System.out.println(Arrays.toString(array));
         System.out.println("sort masiv");
-        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array)); //  не получилось запустить метод
     }
 }
