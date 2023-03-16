@@ -16,15 +16,17 @@ public class Main2 {
         char[] arr =  {'I', ' ', 'l', 'i', 'k', '?', ' ', 'J', 'a', 'v', 'a'};
 
 
-            String s = Arrays.toString(arr);
+       
+        String s = new String(arr);  // перевели масив символов в строку
+        String f = "?";
+        int n = s.indexOf(f);
+        String s1 = s.substring(0, n)+"e";
+        String s2 = s.substring(n+1, s.length());
 
-        System.out.println(s);
 
+        System.out.println(s1.concat(s2));
 
-String f = "?";
-        System.out.println(s.indexOf(f));
-
-        //к сожалению не рвзобралась
+     
 
         }
     }
