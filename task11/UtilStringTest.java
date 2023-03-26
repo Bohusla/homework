@@ -2,10 +2,6 @@ import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;
 
-
-
-
-
 public class UtilStringTest  {
 
     @Test
@@ -17,16 +13,11 @@ public class UtilStringTest  {
     }
 
     @Test
-
     public void isLineReverce(){
 
         String aktual = UtilString.getReversLine("I like");
         String expected = "I ekil ";
         Assert.assertEquals(expected, aktual);
 
-
     }
-
-
-
 }
